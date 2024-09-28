@@ -1,0 +1,311 @@
+<section class="best-seller">
+                <h2>BEST SELLER</h2>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-item">
+                        <img src="black-tshirt.png" alt="T-SHIRT PORSCHE BLACK">
+                        <p class="product-title">T-SHIRT PORSCHE BLACK</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+    
+                    <!-- Product 2 -->
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+                    
+    
+                    <!-- Add more products as necessary -->
+                </div>
+            </section>
+            <!-- NEW PRODUCT -->
+            <section class="best-seller">
+                <h2>NEW PRODUCT</h2>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-item">
+                        <img src="black-tshirt.png" alt="T-SHIRT PORSCHE BLACK">
+                        <p class="product-title">T-SHIRT PORSCHE BLACK</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+    
+                    <!-- Product 2 -->
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="white-tshirt.png" alt="T-SHIRT PORSCHE WHITE">
+                        <p class="product-title">T-SHIRT PORSCHE WHITE</p>
+                        <p class="price">Rp.150.000</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <i class="fas fa-star"></i> <!-- Font Awesome Star Icon -->
+                        </div>
+                        <div class="checkout-section">
+                            <button class="checkout-btn">CHECKOUT</button>
+                            <i class="fas fa-shopping-bag icon"></i> <!-- Font Awesome Bag Icon -->
+                        </div>
+                    </div>
+                </div>
+                    <!-- Add more products as necessary -->
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- backup 2 -->
+
+            <section class="new-launching">
+                <h2 class="launching-title">NEW LAUNCHING <span class="coming-soon">COMING SOON</span></h2>
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-discount">OFF 12%</div>
+                        <img src="shirt-black.png" alt="T-Shirt" class="product-image">
+                        <div class="product-info">
+                            <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                            <p class="product-price">
+                                <span class="original-price">Rp.150.000</span>
+                                <span class="discounted-price">Rp.132.000</span>
+                                <span class="discount-percentage">12%</span>
+                            </p>
+                            <div class="rating">
+                                <span>★ 4.7</span>
+                            </div>
+                            <button class="checkout-button">CHECKOUT</button>
+                        </div>
+                    </div>
+        
+                    <!-- Duplicate Product Cards for the other items -->
+                    <div class="product-card">
+                        <div class="product-discount">OFF 12%</div>
+                        <img src="shirt-black.png" alt="T-Shirt" class="product-image">
+                        <div class="product-info">
+                            <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                            <p class="product-price">
+                                <span class="original-price">Rp.150.000</span>
+                                <span class="discounted-price">Rp.132.000</span>
+                                <span class="discount-percentage">12%</span>
+                            </p>
+                            <div class="rating">
+                                <span>★ 4.7</span>
+                            </div>
+                            <button class="checkout-button">CHECKOUT</button>
+                        </div>
+                    </div>
+        
+                    <!-- Repeat above div structure for more product cards -->
+                </div>
+            </section>\
+
+
+
+
+
+
+            <div class="bundle-section">
+                <h2>PAKETAN T-SHIRT-HOODIE-CREWNECK</h2>
+                <div class="bundle-products">
+                    <!-- First Product -->
+                    <div class="product">
+                        <img src="tshirt-black.png" alt="T-Shirt Acconitum Porsche Black">
+                        <p>T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                        <p>Rp.150.000</p>
+                        <span class="rating">⭐ 4.7</span>
+                        <button>CHECKOUT</button>
+                    </div>
+                    <span class="plus">+</span>  <!-- Plus Sign -->
+                    <!-- Second Product -->
+                    <div class="product">
+                        <img src="hoodie-black.png" alt="Hoodie Acconitum Porsche Black">
+                        <p>HOODIE ACCONITUM PORSCHE BLACK</p>
+                        <p>Rp.250.000</p>
+                        <span class="rating">⭐ 4.9</span>
+                        <button>CHECKOUT</button>
+                    </div>
+                    <span class="plus">+</span>  <!-- Plus Sign -->
+                    <!-- Third Product -->
+                    <div class="product">
+                        <img src="crewneck-black.png" alt="Crewneck Acconitum Porsche Black">
+                        <p>CREWNECK ACCONITUM PORSCHE BLACK</p>
+                        <p>Rp.200.000</p>
+                        <span class="rating">⭐ 4.8</span>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+                <div class="special-price">
+                    <span class="original-price">Rp.450.000</span>
+                    <span class="discount">18%</span>
+                    <span class="price">Rp.369.000</span>
+                </div>
+                <button class="checkout-button">CHECKOUT</button>
+            </div>
+
+
+
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-logo">
+                        <span>AM</span> <!-- Assuming 'AM' as logo based on the screenshot -->
+                    </div>
+                    <div class="footer-links">
+                        <a href="/ecommerce">e-Commerce Website</a>
+                        <a href="/portfolio">Portfolio Website</a>
+                        <a href="/fashion">Fashion Website</a>
+                        <a href="/online-web">Online Web</a>
+                        <a href="/online-book">Online Book</a>
+                    </div>
+                    <div class="footer-help">
+                        <a href="/about">About Us</a>
+                        <a href="/contact">Contact Us</a>
+                        <a href="/help">Help Center</a>
+                        <a href="/blog">Blog</a>
+                        <a href="/roadmap">Roadmap</a>
+                    </div>
+                    <div class="footer-bottom">
+                        <a href="/tos">Terms of Service</a>
+                        <a href="/privacy">Privacy Choices</a>
+                        <a href="/privacy-policy">Privacy Policy</a>
+                        <a href="/sitemap">Sitemap</a>
+                    </div>
+                    <div class="social-icons">
+                        <!-- Assuming icons for social media -->
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="copyright">
+                        © Accobitum.Brand 2024
+                    </div>
+                </div>
+            </footer>

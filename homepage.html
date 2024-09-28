@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acconitum.com</title>
+    <link rel="icon" href="Acconitum Logo (2).png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <div class="header-hero">
+        <nav>
+            <div class="bars">
+                <i class="ri-menu-line"></i>
+            </div>
+            <div class="logo">
+                <img src="aaron martinez (1).png" alt="logo">
+            </div>
+            <ul class="menu">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#newbrand">New Brand</a></li>
+                <li><a href="#lauching">New Lauching</a></li>
+                <li><a href="#Product">Product</a></li>
+                <li><a href="#Package">Package </a></li>
+            </ul>
+            <div class="icons">
+                <i class="ri-search-line" id="search-icon" style="cursor: pointer;"></i>
+                <div class="search-box" id="search-box">
+                    <input type="text" id="search-bar" placeholder="Search products..." onkeyup="showSuggestions(this.value)">
+                    <div id="suggestions"></div>
+                </div>
+                <div class="value">
+                    <i class="ri-heart-2-line"></i>
+                    <span>0</span>
+                </div>
+                <div class="value">
+                    <i class="ri-shopping-bag-line"></i>
+                    <span>0</span>
+                </div>
+                <i class="ri-menu-add-line"></i>
+            </div>
+            <div class="sec-nav-overlay"></div>
+            <div class="sec-nav">
+                <div class="closing-bars">
+                    <i class="ri-close-large-fill"></i>
+                </div>
+                <ul class="sec-menu">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#" id="fashion-favorites-link">Fashion Favorites</a></li>
+                    <li><a href="#" id="co-button">Check out</a></li>
+                </ul>
+                <h2 class="select">Currency</h2>
+                <div class="selects">
+                    <div class="select-box select-box1">
+                        <div class="box">
+                            <div class="box-det">
+                                <div class="select-img">
+                                    <img src="us.svg" alt="">
+                                </div>
+                                <div class="select-name">
+                                    <p>USD</p>
+                                </div>
+                            </div>
+                            <img src="icon-arrow-down-2.png" alt="" class="arrow-down">
+                        </div>
+                    </div>
+                </div>
+                <div class="options option1">
+                    <div class="option-box">
+                        <div class="box-det">
+                            <div class="select-img">
+                                <img src="us.svg" alt="">
+                            </div>
+                            <div class="select-name">
+                                <p>USD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option-box">
+                        <div class="box-det">
+                            <div class="select-img">
+                                <img src="gb (1).svg" alt="">
+                            </div>
+                            <div class="select-name">
+                                <p>GBP</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option-box">
+                        <div class="box-det">
+                            <div class="select-img">
+                                <img src="eu.svg" alt="">
+                            </div>
+                            <div class="select-name">
+                                <p>EUR</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="select">Language</h2>
+                <div class="selects selects2">
+                    <div class="select-box select-box2">
+                        <div class="box">
+                            <div class="box-det">
+                                <div class="select-img">
+                                    <img src="gb (1).svg" alt="">
+                                </div>
+                                <div class="select-name">
+                                    <p>ENGLISH</p>
+                                </div>
+                            </div>
+                            <img src="icon-arrow-down-2.png" alt="" class="arrow-down">
+                        </div>
+                    </div>
+                </div>
+                <div class="options option2">
+                    <div class="option-box">
+                        <div class="box-det">
+                            <div class="select-img">
+                                <img src="us.svg" alt="">
+                            </div>
+                            <div class="select-name">
+                                <p>ENGLISH</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option-box">
+                        <div class="box-det">
+                            <div class="select-img">
+                                <img src="gb (1).svg" alt="">
+                            </div>
+                            <div class="select-name">
+                                <p>France</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option-box">
+                        <div class="box-det">
+                            <div class="select-img">
+                                <img src="eu.svg" alt="">
+                            </div>
+                            <div class="select-name">
+                                <p>Deutsch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-collec">
+                <div class="cart-head">
+                    <div class="cart-det">
+                        <i class="ri-shopping-cart-2-line cart"></i>
+                        <span>0</span>
+                        <h2>CART</h2>
+                    </div>
+                    <div class="ri-close-large-fill close-cart"></div>
+                </div>
+                <div class="cart-content">
+                    <p>New Brand</p>
+                    <div class="cart-btn">
+                        <button class="btn2">T-Shirt</button>
+                        <button class="btn2">Hoodie</button>
+                        <button class="btn2">Cars Shirt</button>
+                        <button class="btn2">cropped jacket</button>
+                        <button class="btn2">creep Hoddie</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Fashion T-shirts</h2>
+                <h1>Acconitum Brand</h1>
+                <p>Find the perfect color combination between sporty and dark fashion. Our collection offers unmatched quality and edgy designs that make a statement. Enjoy professional and quality service at affordable prices.</p>
+                <div class="btn">
+                    <button class="btn1"><a href="#">View products</a><i class="ri-play-circle-line"></i></button>
+                    <button class="btn2">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-showcase">
+                <div class="striped-background"></div>
+                <div class="product-images">
+                    <img src="tshirt.png" alt="Black T-shirt" class="t-shirt">
+                    <img src="T2.png" alt="White T-shirt" class="t-shirt">
+                </div>
+            </div>
+        </div>
+    <div class="header-section">
+        <div class="header-item">
+            <i class="fa fa-truck"></i>
+            <h3>Free Delivery</h3>
+            <p>Free shipping over 500k to store</p>
+        </div>
+        <div class="header-item">
+            <i class="fa fa-credit-card"></i>
+            <h3>Flexible Payment</h3>
+            <p>Different finance options will be available</p>
+        </div>
+        <div class="header-item">
+            <i class="fa fa-clock"></i>
+            <h3>On Time Packages</h3>
+            <p>The package will arrive on time</p>
+        </div>
+    </div>
+    <section id="newbrand" class="feture">
+        <div class="image">
+            <img src="Acconitum (1).svg" alt="" class="newbrand">
+            </div>
+            <div class="content">
+                <div class="headers">
+                    <h2>NEW BRAND!  </h2>
+                    <h1>Hoddie Cropped</h1>
+                </div>
+                <p>The back makes a statement with the phrase "STOP THINKING WE HAVE BEEF, IDGAF AB U" alongside a dramatic face graphic, exuding a rebellious and daring vibe. Crafted from soft premium cotton, this unisex hoodie combines comfort with streetwear flair.</p>
+                    <div class="btn">
+                        <button class="btn1"><a href="#">View Photo</a><i class="ri-play-circle-line"></i></button>
+                        <button class="btn2">Buy Now</button>
+                    </div>
+            </div>
+    </section>
+    <div class="promo-banner">
+        <span class="free-tabs">*Free 1 tshirt if you shop over 500k and will</span> get a free sticker on every purchase
+    </div>
+        <div class="best-seller-section">
+            <div class="shirt-container">
+                <img src="T2.png" alt="T-shirt" class="shirt-image">
+                <img src="T3.png" alt="T-shirt" class="shirt-image">
+            </div>
+            <div class="text-content">
+                <h1 class="best-seller-title">BEST SELLER</h1>
+                <p class="welcome-text">Elevate your casual wardrobe with our top-selling "Need Money for Porsche" T-shirt. This stylish tee features a bold statement, "NEED MONEY FOR PORSCHE," printed in stark black letters that capture the essence of automotive enthusiasm and a touch of humor. </p>
+            </div>
+        </div>
+        <section id="lauching" class="new-launching">
+            <div class="launching-header">
+                <h2 class="launching-title">NEW LAUNCHING</h2>
+                <span class="coming-soon">COMING SOON</span>
+                <div class="navbar">
+                    <input type="text" placeholder="Search" class="search-bar">
+                </div>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-discount">OFF 12%</div>
+                    <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                        <p class="product-price">
+                            <span class="original-price">Rp.150.000</span>
+                            <span class="discounted-price">Rp.132.000</span>
+                            <span class="discount-percentage">12%</span>
+                        </p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                        </div>
+                        <p class="checkout-button">
+                            <span class="text-co">CHECKOUT</span>
+                            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-discount">OFF 12%</div>
+                    <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                        <p class="product-price">
+                            <span class="original-price">Rp.150.000</span>
+                            <span class="discounted-price">Rp.132.000</span>
+                            <span class="discount-percentage">12%</span>
+                        </p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                        </div>
+                        <p class="checkout-button">
+                            <span class="text-co">CHECKOUT</span>
+                            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-discount">OFF 12%</div>
+                    <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                        <p class="product-price">
+                            <span class="original-price">Rp.150.000</span>
+                            <span class="discounted-price">Rp.132.000</span>
+                            <span class="discount-percentage">12%</span>
+                        </p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                        </div>
+                        <p class="checkout-button">
+                            <span class="text-co">CHECKOUT</span>
+                            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-discount">OFF 12%</div>
+                    <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                        <p class="product-price">
+                            <span class="original-price">Rp.150.000</span>
+                            <span class="discounted-price">Rp.132.000</span>
+                            <span class="discount-percentage">12%</span>
+                        </p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                        </div>
+                        <p class="checkout-button">
+                            <span class="text-co">CHECKOUT</span>
+                            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-discount">OFF 12%</div>
+                    <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                        <p class="product-price">
+                            <span class="original-price">Rp.150.000</span>
+                            <span class="discounted-price">Rp.132.000</span>
+                            <span class="discount-percentage">12%</span>
+                        </p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                        </div>
+                        <p class="checkout-button">
+                            <span class="text-co">CHECKOUT</span>
+                            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="Product" class="product-section">
+            <div class="filter-bar">
+                <span>ALL PRODUCTS</span>
+                <div class="filter-container">
+                    <label for="product-filter">Filter:</label>
+                    <select id="product-filter">
+                        <option value="all">All</option>
+                        <option value="hoodie">Hoodie</option>
+                        <option value="tshirt">T-Shirt</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div class="product-grid">
+            <div class="product-card">
+                <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                <div class="product-info">
+                    <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                    <p class="product-price">
+                        <span class="discounted-new">Rp.132.000</span>
+                    </p>
+                    <div class="new-rating">
+                        <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                        <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                <div class="product-info">
+                    <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                    <p class="product-price">
+                        <span class="discounted-new">Rp.132.000</span>
+                    </p>
+                    <div class="new-rating">
+                        <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                        <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                <div class="product-info">
+                    <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                    <p class="product-price">
+                        <span class="discounted-new">Rp.132.000</span>
+                    </p>
+                    <div class="new-rating">
+                        <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                        <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                <div class="product-info">
+                    <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                    <p class="product-price">
+                        <span class="discounted-new">Rp.132.000</span>
+                    </p>
+                    <div class="new-rating">
+                        <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                        <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                <div class="product-info">
+                    <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                    <p class="product-price">
+                        <span class="discounted-new">Rp.132.000</span>
+                    </p>
+                    <div class="new-rating">
+                        <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                        <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                <div class="product-info">
+                    <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                    <p class="product-price">
+                        <span class="discounted-new">Rp.132.000</span>
+                    </p>
+                    <div class="new-rating">
+                        <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                        <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                <div class="product-info">
+                    <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                    <p class="product-price">
+                        <span class="discounted-new">Rp.132.000</span>
+                    </p>
+                    <div class="new-rating">
+                        <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                        <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                    </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                        <p class="product-price">
+                            <span class="discounted-new">Rp.132.000</span>
+                        </p>
+                        <div class="new-rating">
+                            <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                        </div>
+                        <p class="checkout-button">
+                            <span class="text-co">CHECKOUT</span>
+                            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                        </p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                        <div class="product-info">
+                            <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                            <p class="product-price">
+                                <span class="discounted-new">Rp.132.000</span>
+                            </p>
+                            <div class="new-rating">
+                                <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                            </div>
+                            <p class="checkout-button">
+                                <span class="text-co">CHECKOUT</span>
+                                <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                            </p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                            <div class="product-info">
+                                <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                                <p class="product-price">
+                                    <span class="discounted-new">Rp.132.000</span>
+                                </p>
+                                <div class="new-rating">
+                                    <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                                </div>
+                                <p class="checkout-button">
+                                    <span class="text-co">CHECKOUT</span>
+                                    <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+                                </p>
+                                </div>
+                            </div>
+            </div>
+            <div id="Package" class="bundle-package">
+                <h2 class="package-title">PAKETAN T-SHIRT-HOODIE-CREWNECK</h2>
+                <div class="package-contents">
+                    <div class="package-items">
+                        <!-- Item 1 -->
+                        <div class="product-card">
+                            <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                            <div class="product-info">
+                                <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                                <p class="product-price">
+                                    <span class="discounted-new">Rp.132.000</span>
+                                </p>
+                                <div class="new-rating">
+                                    <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                                </div>
+                                </div>
+                            </div>
+                        <span class="package-plus">+</span>
+                        <!-- Item 2 -->
+                        <div class="product-card">
+                            <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                            <div class="product-info">
+                                <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                                <p class="product-price">
+                                    <span class="discounted-new">Rp.132.000</span>
+                                </p>
+                                <div class="new-rating">
+                                    <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                                </div>
+                                </div>
+                            </div>
+                        <span class="package-plus">+</span>
+                        <!-- Item 3 -->
+                        <div class="product-card">
+                            <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                            <div class="product-info">
+                                <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                                <p class="product-price">
+                                    <span class="discounted-new">Rp.132.000</span>
+                                </p>
+                                <div class="new-rating">
+                                    <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                                </div>
+                            </div>
+                    </div>
+                    <span class="package-samdeng">=</span>
+                    <div class="special-offer">
+                        <span class="special-price-label">SPECIAL PRICE</span>
+                        <div class="pricing-details">
+                            <span class="original-price">Rp.450.000</span>
+                            <span class="discount">18%</span>
+                            <span class="final-price">Rp.369.000</span>
+                        </div>
+                        <p class="checkout-button">
+                            <span class="text-co">CHECKOUT</span>
+                        </p>
+                        <p class="validity">*Berlaku 10/8/24 - 10/8/25</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bundle-package">
+            <h2 class="package-title">PAKETAN T-SHIRT-HOODIE</h2>
+            <div class="package-contents">
+                <div class="package-items">
+                    <!-- Item 1 -->
+                    <div class="product-card">
+                        <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                        <div class="product-info">
+                            <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                            <p class="product-price">
+                                <span class="discounted-new">Rp.132.000</span>
+                            </p>
+                            <div class="new-rating">
+                                <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                            </div>
+                            </div>
+                        </div>
+                    <span class="package-plus">+</span>
+                    <!-- Item 2 -->
+                    <!-- Item 3 -->
+                    <div class="product-card">
+                        <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                        <div class="product-info">
+                            <p class="product-name">T-SHIRT ACCONITUM PORSCHE BLACK</p>
+                            <p class="product-price">
+                                <span class="discounted-new">Rp.132.000</span>
+                            </p>
+                            <div class="new-rating">
+                                <i class="fas fa-star"></i><span class="rating-number">4.7</span>
+                            </div>
+                        </div>
+                </div>
+                <span class="package-samdeng">=</span>
+                <div class="special-offer">
+                    <span class="special-price-label">SPECIAL PRICE</span>
+                    <div class="pricing-details">
+                        <span class="original-price">Rp.450.000</span>
+                        <span class="discount">18%</span>
+                        <span class="final-price">Rp.369.000</span>
+                    </div>
+                    <p class="checkout-button">
+                        <span class="text-co">CHECKOUT</span>
+                    </p>
+                    <p class="validity">*Berlaku 10/8/24 - 10/8/25</p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="coming-soon-section">
+        <div class="shirt-image">
+            <img src="CMSOON.png" alt="Coming Soon Shirt">
+        </div>
+        <div class="coming-soon-text">
+            <h1>COMING SOON!!</h1>
+            <h1><span class="guest-text">GUEST</span> T-SHIRT!!</h1>
+            <hr class= "line-white">
+            <p class="sub-text">*FREE 5 T-SHIRT FOR RANDOM PEOPLE</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="logo-social">
+                <div class="logo">
+                    <img src="Acconitum Logo (3).png" alt="AM Logo" />
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="solutions-help">
+                <div class="solutions">
+                    <h2>SOLUTIONS</h2>
+                    <ul>
+                        <li>e-Commerce Website</li>
+                        <li>Portfolio Website</li>
+                        <li>Fashion Website</li>
+                        <li>Online Web</li>
+                        <li>Online Book</li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h2>HELP</h2>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Help Center</li>
+                        <li>Blog</li>
+                        <li>Roadmap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <div class="left">
+                <p>@Accobitum.Brand 2024</p>
+            </div>
+            <div class="right">
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Privacy choices</a> | 
+                <a href="#">Privacy policy</a> | 
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+        </div>
+        </div>
+        <!-- login section -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Login</h2>
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="btn-primary">Login</button>
+                </form>
+                <div class="social-login">
+                    <p>Or login with</p>
+                    <div class="social-icons">
+                        <i class="fab fa-google"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-microsoft"></i>
+                        <i class="fab fa-apple"></i>
+                    </div>
+                </div>
+                <p class="switch-modal">Don't have an account? <span id="showRegister">Register here</span></p>
+            </div>
+        </div>
+        
+        <!-- Register section -->
+        <div id="registerModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Register</h2>
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="btn-primary">Register</button>
+                </form>
+                <div class="social-login">
+                    <p>Or register with</p>
+                    <div class="social-icons">
+                        <i class="fab fa-google"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-microsoft"></i>
+                        <i class="fab fa-apple"></i>
+                    </div>
+                </div>
+                <p class="switch-modal">Already have an account? <span id="showLogin">Login here</span></p>
+            </div>
+        </div>
+                        <!-- BATAL -->
+        <div id="checkout-modal" class="checkout-modal">
+            <div class="checkout-content">
+                <span class="close-btn">&times;</span>
+                <h2>Checkout</h2>
+                <div id="checkout-items" class="checkout-items">
+                    <h2>Pilih Metode Pengiriman</h2>
+                    <select id="shipping-method" onchange="updateShippingCost()">
+                        <option value="standard">Standard Shipping - Rp. 50.000</option>
+                        <option value="express">Express Shipping - Rp. 100.000</option>
+                    </select>
+                    <h2>Pilih Metode Pembayaran</h2>
+                <select id="payment-method" onchange="showPaymentDetails()">
+                <option value="bank-transfer">Transfer Bank</option>
+                <option value="credit-card">Kartu Kredit</option>
+                <option value="e-wallet">E-Wallet</option>
+                </select>
+            <div id="payment-details"></div>
+                </div>
+                <button class="confirm-btn">Confirm Checkout</button>
+            </div>
+        </div>
+
+        <!-- BELUM JADI -->
+        <div id="fashionFavoritesModal" class="fashion-favorites-modal">
+            <div class="fashion-favorites-content">
+                <span class="fashion-close">&times;</span>
+                <h2>Fashion Favorites</h2>
+                <div id="favorites-items" class="favorites-items">
+                    <p class="empty-message">Your Fashion Favorites list is currently empty!</p>
+                </div>
+                <button class="btn-primary" onclick="window.location.href='#'">Browse Products</button>
+            </div>
+        </div>
+
+        <div id="checkout-modal" class="checkout-modal">
+            <div class="checkout-content">
+                <span class="close-btn">&times;</span>
+                <h2>Keranjang Belanja</h2>
+                <div id="checkout-items" class="checkout-items">
+                    <!-- Daftar produk akan muncul di sini -->
+                    <div class="item">
+                        <img src="tshirt.png" alt="T-Shirt" class="product-image">
+                        <div class="item-details">
+                            <h3>T-SHIRT ACCONITUM PORSCHE BLACK</h3>
+                            <p>Jumlah: 1</p>
+                            <p>Harga: Rp.132.000</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <img src="hoodie.png" alt="Hoodie" class="product-image">
+                        <div class="item-details">
+                            <h3>HOODIE CROPPED BLACK</h3>
+                            <p>Jumlah: 1</p>
+                            <p>Harga: Rp.220.000</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h3>Total Harga: Rp.352.000</h3>
+        
+                <h2>Pilih Metode Pengiriman</h2>
+                <select id="shipping-method" onchange="updateShippingCost()">
+                    <option value="standard">Standard Shipping - Rp. 50.000</option>
+                    <option value="express">Express Shipping - Rp. 100.000</option>
+                </select>
+                
+                <h2>Pilih Metode Pembayaran</h2>
+                <select id="payment-method">
+                    <option value="bank-transfer">Transfer Bank</option>
+                    <option value="credit-card">Kartu Kredit</option>
+                    <option value="e-wallet">E-Wallet</option>
+                </select>
+                
+                <div class="checkout-actions">
+                    <button class="proceed-btn">Lanjut ke Pembayaran</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="page.js"></script>
+</body>
+</html>
