@@ -374,3 +374,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Confirm Checkout clicked');
     });
 });
+
+
+
+

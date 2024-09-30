@@ -38,7 +38,9 @@
                     <div id="suggestions"></div>
                 </div>
                 <div class="value">
+                    <a href="#" class="icon-link" id="like-icon"></a>
                     <i class="ri-heart-2-line"></i>
+                    </a>
                     <span>0</span>
                 </div>
                 <div class="value">
@@ -165,7 +167,7 @@
                     <div class="ri-close-large-fill close-cart"></div>
                 </div>
                 <div class="cart-content">
-                    <p>New Brand</p>
+                    <h2>collection</h2>
                     <div class="cart-btn">
                         <button class="btn2">T-Shirt</button>
                         <button class="btn2">Hoodie</button>
@@ -696,6 +698,23 @@
     </footer>
         </div>
         </div>
+
+
+        <div class="like-popup-overlay" id="like-popup">
+            <div class="like-popup-content">
+                <span class="close-btn" id="close-btn">&times;</span>
+                <h2>Your Liked Products</h2>
+                <ul id="liked-products-list">
+                    <li>
+                        <img src="/mnt/data/tshirt.png" alt="Liked T-Shirt Porsche" class="liked-product-image" />
+                        <p>T-Shirt Porsche Black</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
         <!-- login section -->
         <div id="loginModal" class="modal">
             <div class="modal-content">
@@ -742,28 +761,6 @@
                 <p class="switch-modal">Already have an account? <span id="showLogin">Login here</span></p>
             </div>
         </div>
-                        <!-- BATAL -->
-        <div id="checkout-modal" class="checkout-modal">
-            <div class="checkout-content">
-                <span class="close-btn">&times;</span>
-                <h2>Checkout</h2>
-                <div id="checkout-items" class="checkout-items">
-                    <h2>Pilih Metode Pengiriman</h2>
-                    <select id="shipping-method" onchange="updateShippingCost()">
-                        <option value="standard">Standard Shipping - Rp. 50.000</option>
-                        <option value="express">Express Shipping - Rp. 100.000</option>
-                    </select>
-                    <h2>Pilih Metode Pembayaran</h2>
-                <select id="payment-method" onchange="showPaymentDetails()">
-                <option value="bank-transfer">Transfer Bank</option>
-                <option value="credit-card">Kartu Kredit</option>
-                <option value="e-wallet">E-Wallet</option>
-                </select>
-            <div id="payment-details"></div>
-                </div>
-                <button class="confirm-btn">Confirm Checkout</button>
-            </div>
-        </div>
 
         <!-- BELUM JADI -->
         <div id="fashionFavoritesModal" class="fashion-favorites-modal">
@@ -801,21 +798,22 @@
                         </div>
                     </div>
                 </div>
-                <hr>
-                <h3>Total Harga: Rp.352.000</h3>
-        
-                <h2>Pilih Metode Pengiriman</h2>
-                <select id="shipping-method" onchange="updateShippingCost()">
-                    <option value="standard">Standard Shipping - Rp. 50.000</option>
-                    <option value="express">Express Shipping - Rp. 100.000</option>
-                </select>
+                <h3 class="metode">Pilih Metode Pengiriman</h3>
+                <div class="select-container">
+                    <select id="shipping-method" class="custom-select" onchange="updateShippingCost()">
+                        <option value="standard">Standard Shipping - Rp. 50.000</option>
+                        <option value="express">Express Shipping - Rp. 100.000</option>
+                    </select>
+                </div>
                 
-                <h2>Pilih Metode Pembayaran</h2>
-                <select id="payment-method">
-                    <option value="bank-transfer">Transfer Bank</option>
-                    <option value="credit-card">Kartu Kredit</option>
-                    <option value="e-wallet">E-Wallet</option>
-                </select>
+                <h3 class="metode">Pilih Metode Pembayaran</h3>
+                <div class="select-container">
+                    <select id="payment-method" class="custom-select">
+                        <option value="bank-transfer">Transfer Bank</option>
+                        <option value="credit-card">Kartu Kredit</option>
+                        <option value="e-wallet">E-Wallet</option>
+                    </select>
+                </div>
                 
                 <div class="checkout-actions">
                     <button class="proceed-btn">Lanjut ke Pembayaran</button>
@@ -823,7 +821,7 @@
             </div>
         </div>
 
-
+        
 
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.min.js"></script>
