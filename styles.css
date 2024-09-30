@@ -456,6 +456,65 @@ nav{
 }
 
 
+.select-box .box-det, .option-box .box-det {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ikon dan teks diratakan kiri-kanan */
+}
+
+/* Sesuaikan ukuran ikon agar sejajar dengan teks */
+.select-box .box-det i, .option-box .box-det i {
+    font-size: 16px;
+    margin-right: 10px; /* Beri jarak antara ikon dan teks */
+    display: flex;
+    align-items: center;
+}
+
+/* Atur padding dan margin untuk opsi agar tidak miring */
+.option-box {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ccc; /* Tambahkan garis bawah opsional */
+    display: flex;
+    align-items: center; /* Sejajarkan ikon dan teks secara vertikal */
+    justify-content: space-between;
+}
+
+/* Rapikan elemen voucher dan event */
+.select-box .box-det p, .option-box .box-det p {
+    margin: 0;
+    padding-left: 5px; /* Tambahkan padding agar teks tidak terlalu dekat dengan ikon */
+}
+
+/* Rapikan arrow-down untuk letak di kanan */
+.select-box .arrow-down {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Buat dropdown lebih responsif */
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Pastikan lebar 100% mengikuti kontainer */
+}
+
+/* Tampilan saat hover pada opsi */
+.option-box:hover {
+    background-color: #f0f0f0; /* Opsi ketika di-hover */
+    cursor: pointer;
+}
+
+/* Sesuaikan font dan ukuran jika diperlukan */
+.option-box p, .select-box p {
+    font-size: 14px; /* Sesuaikan ukuran font */
+}
+
+/* Atur lebar dropdown agar tidak terlalu lebar */
+.select-box, .options {
+    width: 100%; /* Pastikan semua elemen menggunakan lebar kontainer */
+}
+
 .cart-collec {
     top: 0;
     right: 0;
@@ -586,7 +645,7 @@ nav{
 
 .hero-content h2 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 70px;
     font-size: 1.3rem;
     font-weight: var(--fw-4);
     text-transform: uppercase;
